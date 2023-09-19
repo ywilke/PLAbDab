@@ -4,10 +4,9 @@ import pandas as pd
 import torch
 
 from PLAbDab.sequence_search import SequenceSearch
-from PLAbDab.structure_search import StructureSearch
 from PLAbDab.util import add_url_to_paired_data
 
-class PLAbDab(SequenceSearch, StructureSearch):
+class PLAbDab(SequenceSearch):
     """
     The main class for searching and retrieving data from the Patent and Literature Antibody Database (PLAbDab). 
     ...
