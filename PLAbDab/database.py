@@ -34,7 +34,7 @@ class PLAbDab(SequenceSearch):
         n_jobs = 5, 
         **kwargs
     ):
-        super().__init__(path_to_db)
+        super().__init__()
         self.config = kwargs
         self.path_to_db = path_to_db
         self.__check_config()
