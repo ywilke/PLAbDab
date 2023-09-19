@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='PLAbDab',
-    version='0.0.1',
+    version='0.1',
     description='Set of functions to search PLAbDab',
     license='BSD 3-clause license',
     maintainer='Brennan Abanades',
